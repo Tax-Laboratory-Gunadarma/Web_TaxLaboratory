@@ -1,8 +1,12 @@
 import { useEffect, useState, useRef } from 'react';
 import { PdfIcon, ViewIcon } from './ModulIcons';
 
-
-// KOMPONEN KARTU MODUL
+// Ikon tambahan untuk tombol download
+const DownloadIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+  </svg>
+);
 
 export default function ModulCard({ modul }) {
   const [fileSize, setFileSize] = useState("Loading...");
@@ -31,7 +35,7 @@ export default function ModulCard({ modul }) {
     };
   }, []);
 
-  // Fetch Ukuran File secara Asynchronous (Tidak nge-block halaman)
+  // Fetch Ukuran File
   useEffect(() => {
     let isMounted = true;
     const extension = modul.link.split('.').pop().toUpperCase();
@@ -57,8 +61,32 @@ export default function ModulCard({ modul }) {
     };
 
     fetchFileSize();
-    return () => { isMounted = false; } // Cleanup API call kalau komponen di-unmount
+    return () => { isMounted = false; } 
   }, [modul.link]);
+
+  // Fungsi untuk memicu download paksa
+  const handleDownload = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch(modul.link);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `${modul.title}.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("Download failed", error);
+      window.open(modul.link, '_blank');
+    }
+  };
+
+  // Bikin URL khusus pakai Google Viewer untuk tombol BACA
+  const absoluteUrl = `https://taxlaboratory.my.id${modul.link}`;
+  const bacaUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(absoluteUrl)}`;
 
   return (
     <article 
@@ -107,16 +135,29 @@ export default function ModulCard({ modul }) {
           </div>
         </div>
 
-        <a 
-          href={modul.link} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          aria-label={`Baca Modul: ${modul.title}`}
-          className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-purple-900 text-white font-bold py-3 px-6 rounded-xl transition-colors duration-300 shadow-sm"
-        >
-          <ViewIcon />
-          <span>Baca Modul</span>
-        </a>
+        <div className="flex gap-3 w-full sm:w-auto">
+          {/* TOMBOL BACA (MENGGUNAKAN GOOGLE VIEWER) */}
+          <a 
+            href={bacaUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label={`Baca Modul: ${modul.title}`}
+            className="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold py-3 px-6 rounded-xl transition-colors duration-300 border border-slate-200"
+          >
+            <ViewIcon />
+            <span>Baca</span>
+          </a>
+
+          {/* TOMBOL DOWNLOAD (TETAP PAKAI BLOB/FETCH) */}
+          <button 
+            onClick={handleDownload}
+            aria-label={`Download Modul: ${modul.title}`}
+            className="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-xl transition-colors duration-300 shadow-sm"
+          >
+            <DownloadIcon />
+            <span>Download</span>
+          </button>
+        </div>
       </div>
     </article>
   );
