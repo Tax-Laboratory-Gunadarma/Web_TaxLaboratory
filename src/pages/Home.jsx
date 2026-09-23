@@ -150,7 +150,7 @@ export default function Home() {
                     <img 
                       src="/img-team/foto-taxlab.webp" 
                       alt="Suasana Praktikum tax laboratory di Laboratorium Akuntansi Lanjut B (Tax Lab Gundar)" 
-                      fetchpriority="high"
+                      fetchPriority="high"
                       decoding="async"
                       className={`w-full h-full object-cover object-center transition-transform duration-700 ease-out transform-gpu
                         lg:group-hover:scale-105

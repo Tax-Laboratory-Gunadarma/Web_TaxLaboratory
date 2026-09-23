@@ -186,7 +186,7 @@ export default function TentangKami() {
               <img 
                 src="/img-team/foto-tentang-kami.webp" 
                 alt="Fasilitas Modern di Laboratorium Pajak Universitas Gunadarma" 
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 className="w-full h-full object-cover"
               />
