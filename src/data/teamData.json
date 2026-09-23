@@ -1,29 +1,4 @@
 {
-  "angkatan2022": {
-    "asisten": [
-      { "name": "Alifah Syifa Shabrina", "role": "Asisten Praktikum", "img": "/img-team/2022/Alifah.webp", "in": "#", "ig": "#" },
-      { "name": "Najwa Khansa Khalila", "role": "Asisten Praktikum", "img": "/img-team/2022/Najwa.webp", "in": "#", "ig": "#" },
-      { "name": "Bintari Chifa Arfianti", "role": "Asisten Praktikum", "img": "/img-team/2022/Tari.webp", "in": "#", "ig": "#" },
-      { "name": "Kayla Naurah", "role": "Asisten Praktikum", "img": "/img-team/2022/Kayla.webp", "in": "#", "ig": "#" },
-      { "name": "Alven Handijaya", "role": "Asisten Praktikum", "img": "/img-team/2022/Alven.webp", "in": "#", "ig": "#" },
-      { "name": "Fauzan Wahyu", "role": "Asisten Praktikum", "img": "/img-team/2022/Fauzan.webp", "in": "#", "ig": "#" },
-      { "name": "Amanda Tirtania", "role": "Asisten Praktikum", "img": "/img-team/2022/Amanda_Tirtania.webp", "in": "#", "ig": "#" },
-      { "name": "Melisa Eka Putri", "role": "Asisten Praktikum", "img": "/img-team/2022/Melissa.webp", "in": "#", "ig": "#" },
-      { "name": "Nabilah Putri", "role": "Asisten Praktikum", "img": "/img-team/2022/Nabilah.webp", "in": "#", "ig": "#" },
-      { "name": "Adelia Dwihafitri", "role": "Asisten Praktikum", "img": "/img-team/2022/Adel.webp", "in": "#", "ig": "#" },
-      { "name": "Rayshasikirana Lovetha Faidzia", "role": "Asisten Praktikum", "img": "/img-team/2022/Raysa.webp", "in": "#", "ig": "#" },
-      { "name": "Sephia Trisnawati", "role": "Asisten Praktikum", "img": "/img-team/2022/Sephia.webp", "in": "#", "ig": "#" },
-      { "name": "Siti Amanda", "role": "Asisten Praktikum", "img": "/img-team/2022/Siti_Amanda.webp", "in": "#", "ig": "#" },
-      { "name": "Sovia Setiawati", "role": "Asisten Praktikum", "img": "/img-team/2022/Sovia.webp", "in": "#", "ig": "#" },
-      { "name": "Aura Aisyah", "role": "Asisten Praktikum", "img": "/img-team/2022/Aura.webp", "in": "#", "ig": "#" },
-      { "name": "Tiara Pravita Sari", "role": "Asisten Praktikum", "img": "/img-team/2022/Tiara.webp", "in": "#", "ig": "#" }
-    ],
-    "itSupport": [
-      { "name": "Mohammad Gheron Shaquille", "role": "Kepala IT Support", "img": "/img-team/2022/Gheron.webp", "in": "#", "ig": "#" },
-      { "name": "Clara Marsya Dekawanti", "role": "Staff IT Support", "img": "/img-team/2022/Clara.webp", "in": "#", "ig": "#" },
-      { "name": "Ilyas Imam Ibrahim", "role": "Staff IT Support", "img": "/img-team/2022/Ilyas.webp", "in": "#", "ig": "#" }
-    ]
-  },
   "angkatan2023": {
     "asisten": [
       { "name": "Amanda Mutiara Al Fatwa", "role": "Asisten Praktikum", "img": "/img-team/2023/Amanda.webp", "in": "#", "ig": "#" },

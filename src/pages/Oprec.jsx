@@ -69,7 +69,7 @@ export default function Oprec() {
                       <img 
                         src="/img-team/foto-angkatan.webp" 
                         alt="Angkatan Asisten Laboratorium Akuntansi Lanjut B" 
-                        fetchpriority="high"
+                        fetchPriority="high"
                         decoding="async"
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         onError={(e) => { e.target.src = "https://placehold.co/800x450/1e293b/ffffff?text=FOTO+BELUM+ADA" }} 
