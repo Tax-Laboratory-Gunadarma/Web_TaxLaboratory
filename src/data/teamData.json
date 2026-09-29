@@ -19,7 +19,8 @@
     ],
     "itSupport": [
       { "name": "Muhamad Fathan Fahrizy", "role": "Staff IT Support", "img": "/img-team/2023/Fathan.webp", "in": "#", "ig": "#" },
-      { "name": "Muhammad Daffa Yunus", "role": "Staff IT Support", "img": "/img-team/2023/Daffa.webp", "in": "#", "ig": "#" }
+      { "name": "Muhammad Daffa Yunus", "role": "Staff IT Support", "img": "/img-team/2023/Daffa.webp", "in": "#", "ig": "#" },
+      { "name": "Mochammad Gheron Shaquille", "role": "Staff IT Support", "img": "/img-team/2023/Gheron.webp", "in": "#", "ig": "#" }
     ]
   }
 }
