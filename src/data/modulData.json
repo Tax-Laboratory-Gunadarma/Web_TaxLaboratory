@@ -1,26 +1,18 @@
 [
   {
     "id": 1,
-    "title": "EA_Modul Komputerisasi Perpajakan ATA 2025_2026",
-    "description": "Modul praktikum yang membahas secara komprehensif Pajak Penghasilan (Umum, Pasal 21 hingga 26, Final), e-Filing, SPT, Bea Meterai, BPHTB, PBB, PPN & PPnBM, Faktur Pajak, serta pengenalan Coretax.",
-    "pages": 164,
-    "link": "/files/EA_Modul Komputerisasi Perpajakan ATA 2025_2026.pdf",
-    "classCode": "3EA"
+    "title": "EB_Modul Perpajakan PTA 2026/2027 ",
+    "description": "Panduan praktikum yang membahas ketentuan umum dan tata cara perpajakan termasuk sistem Coretax, bea meterai, perhitungan Pajak Penghasilan (PPh), PPN dan PPnBM, PBB dan BPHTB, serta studi kasus perhitungan pajak dan pengisian e-Faktur.",
+    "pages": 162,
+    "link": "/files/EB_Modul_Perpajakan_PTA_2026-2027.pdf",
+    "classCode": "EB"
   },
   {
     "id": 2,
-    "title": "EB_Modul Akuntansi Perpajakan ATA 2025_2026",
-    "description": "Panduan praktikum yang membahas konsep dasar akuntansi pajak, perlakuan akuntansi untuk aktiva tetap, persediaan, utang pajak, pendapatan dan biaya, penyusunan Laporan Keuangan Fiskal, serta kasus pengisian SPT Tahunan Badan 1771.",
-    "pages": 60,
-    "link": "/files/EB_Modul Akuntansi Perpajakan ATA 2025_2026.pdf",
-    "classCode": "3EB"
-  },
-  {
-    "id": 3,
-    "title": "DA - Modul Komputerisasi Perpajakan ATA 2025-2026",
-    "description": "Modul praktikum yang berfokus pada materi Bea Meterai, Bea Perolehan Hak atas Tanah dan Bangunan (BPHTB), Pajak Bumi dan Bangunan (PBB), PPN & PPnBM, tata cara penerbitan Faktur Pajak, dan pengenalan Coretax.",
-    "pages": 58,
-    "link": "/files/DA_Modul Komputerisasi Perpajakan ATA 2025_2026.pdf",
-    "classCode": "3DA"
+    "title": "EC_Modul Perpajakan PTA 2025/2026",
+    "description": "Panduan praktikum yang membahas ketentuan umum dan tata cara perpajakan termasuk sistem Coretax, bea meterai, perhitungan Pajak Penghasilan (PPh), PPN dan PPnBM, PBB dan BPHTB, serta studi kasus perhitungan pajak dan pengisian e-Faktur.",
+    "pages": 162,
+    "link": "/files/EC_Modul_Perpajakan_PTA_2026-2027",
+    "classCode": "EC"
   }
 ]
