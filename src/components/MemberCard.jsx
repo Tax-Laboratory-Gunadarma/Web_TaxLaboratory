@@ -115,13 +115,13 @@ const MemberCard = memo(function MemberCard({ member }) {
             onError={(e) => { 
               e.target.src = "https://api.dicebear.com/8.x/initials/svg?seed=TL&backgroundColor=f3f4f6";
             }}
-            className={`w-[90%] h-[90%] object-cover sm:object-contain object-bottom transition-transform duration-300 relative z-10 transform-gpu
+            className={`w-full h-full object-contain object-bottom transition-transform duration-300 relative z-10 transform-gpu
               /* EFEK FOTO PC HOVER */
               lg:scale-100 lg:group-hover/img:scale-105
               
               /* EFEK FOTO HP SCROLL */
               ${inView ? 'max-lg:scale-105' : 'max-lg:scale-100'}
-            `} 
+            `}
           />
           
           {/* LOGIC GADGET: SOSMED (BACKDROP-BLUR DIHAPUS) */}
