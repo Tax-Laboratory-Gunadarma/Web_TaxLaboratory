@@ -80,7 +80,7 @@ export default function Oprec() {
                     <figcaption className="p-6 md:p-8 pt-5 md:pt-6 border-t border-slate-800 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mt-auto relative z-10">
                       <div className="text-left">
                         <h4 className="text-base md:text-lg font-bold text-slate-300 leading-tight">Asisten Laboratorium Lanjut B</h4>
-                        <h4 className="text-base md:text-lg font-black text-orange-400">2025/2026</h4>
+                        <h4 className="text-base md:text-lg font-black text-orange-400">2026/2027</h4>
                       </div>
                       <button 
                         onClick={() => setIsImageOpen(true)}
@@ -169,7 +169,7 @@ export default function Oprec() {
                 <div className="bg-white rounded-[2.5rem] p-10 border border-slate-200 shadow-xl flex flex-col hover:border-purple-300 transition-colors">
                   <figure className="w-full h-48 rounded-[2rem] overflow-hidden mb-8 border-4 border-white shadow-md relative group">
                     <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 to-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white font-bold z-10">
-                      <span className="bg-black/30 backdrop-blur-sm px-4 py-2 rounded-xl">Asisten 2025/2026</span>
+                      <span className="bg-black/30 backdrop-blur-sm px-4 py-2 rounded-xl">Asisten 2026/2027</span>
                     </div>
                     <img src="/img-team/Asisten.webp" alt="Seragam Asisten Lab Akuntansi Pajak" loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   </figure>
@@ -204,7 +204,7 @@ export default function Oprec() {
                 <div className="bg-slate-900 rounded-[2.5rem] p-10 border border-slate-800 shadow-xl flex flex-col hover:border-amber-400 transition-colors">
                   <figure className="w-full h-48 rounded-[2rem] overflow-hidden mb-8 border-4 border-slate-700 shadow-md relative group">
                     <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/80 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white font-bold z-10">
-                      <span className="bg-black/30 backdrop-blur-sm px-4 py-2 rounded-xl">IT Support 2025/2026</span>
+                      <span className="bg-black/30 backdrop-blur-sm px-4 py-2 rounded-xl">IT Support 2026/2027</span>
                     </div>
                     <img src="/img-team/IT Support.webp" alt="Seragam IT Support TaxLaboratorium" loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   </figure>
@@ -324,7 +324,7 @@ export default function Oprec() {
             />
             <div className="mt-6 md:mt-8 px-6 py-2.5 bg-black/50 border border-white/10 rounded-full shadow-lg backdrop-blur-md">
               <p className="text-white/90 text-xs sm:text-sm font-black tracking-[0.15em] uppercase text-center">
-                Asisten 2025/2026 Laboratorium Lanjut B
+                Asisten 2026/2027 Laboratorium Lanjut B
               </p>
             </div>
           </div>

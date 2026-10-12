@@ -169,7 +169,7 @@ export default function Home() {
                 <figcaption className="mt-4 px-2 pb-1 flex items-center justify-between">
                    <div>
                      <h4 className="text-white font-bold text-sm sm:text-base tracking-wide">Asisten Laboratorium Akuntansi Lanjut B</h4>
-                     <p className="text-orange-400 font-black text-xs sm:text-sm mt-0.5 uppercase tracking-widest">2025/2026</p>
+                     <p className="text-orange-400 font-black text-xs sm:text-sm mt-0.5 uppercase tracking-widest">2026/2027</p>
                    </div>
                    <div className={`w-10 h-10 border rounded-full flex items-center justify-center text-white transition-all shadow-sm
                      lg:bg-white/10 lg:border-white/20 lg:group-hover:bg-orange-500 lg:group-hover:border-orange-400
