@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 import ScrollProgress from './ScrollProgress';
 import MobileMenu from './MobileMenu';
+import { IS_OPREC_OPEN } from '../data/oprecData';
 
 export default function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -11,7 +12,7 @@ export default function Navbar() {
   
   const location = useLocation();
 
-  const isTransparentHero = location.pathname === '/' || location.pathname === '/oprec';
+  const isTransparentHero = location.pathname === '/' || (location.pathname === '/oprec' && IS_OPREC_OPEN);
   const useWhiteText = isTransparentHero && !isScrolled;
 
   useEffect(() => {

@@ -1,5 +1,6 @@
 import React from 'react';
 // Tambahkan React di atas jika file lu error, tapi di Vite/Next.js modern biasanya langsung jalan.
+export const IS_OPREC_OPEN = false;
 export const TIMELINE_DATA = [
   { 
     step: "1", 
