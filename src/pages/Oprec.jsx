@@ -4,13 +4,13 @@ import PageTransition from '../components/PageTransition';
 import { Helmet } from 'react-helmet-async';
 
 // IMPORT KOMPONEN & DATA EXTERNAL
-import { TIMELINE_DATA } from '../data/oprecData';
+import { TIMELINE_DATA, IS_OPREC_OPEN} from '../data/oprecData';
 import { CheckIcon, CloseIcon, ScrollRevealCard, TimelineRevealItem } from '../components/OprecComponents';
 
 export default function Oprec() {
   const [isLoading, setIsLoading] = useState(true);
   const [isImageOpen, setIsImageOpen] = useState(false);
-  const isOprecOpen = false; 
+  const IS_OPREC_OPEN = false; 
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,7 +32,7 @@ export default function Oprec() {
         <link rel="canonical" href="https://www.taxlaboratory.my.id/oprec" />
       </Helmet>
       <main className="bg-[#fafafa] font-sans text-slate-800 scroll-smooth relative z-0 min-h-screen overflow-x-hidden">
-         {isOprecOpen && (
+         {IS_OPREC_OPEN && (
           <>
           {/* HERO SECTION (SEO H1) */}
           <section className="relative pt-40 pb-32 bg-purple-900 border-b-[8px] border-orange-500 overflow-hidden">
