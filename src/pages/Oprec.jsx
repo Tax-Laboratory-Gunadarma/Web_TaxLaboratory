@@ -10,6 +10,7 @@ import { CheckIcon, CloseIcon, ScrollRevealCard, TimelineRevealItem } from '../c
 export default function Oprec() {
   const [isLoading, setIsLoading] = useState(true);
   const [isImageOpen, setIsImageOpen] = useState(false);
+  const isOprecOpen = false; 
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -31,7 +32,8 @@ export default function Oprec() {
         <link rel="canonical" href="https://www.taxlaboratory.my.id/oprec" />
       </Helmet>
       <main className="bg-[#fafafa] font-sans text-slate-800 scroll-smooth relative z-0 min-h-screen overflow-x-hidden">
-          
+         {isOprecOpen && (
+          <>
           {/* HERO SECTION (SEO H1) */}
           <section className="relative pt-40 pb-32 bg-purple-900 border-b-[8px] border-orange-500 overflow-hidden">
             <div className="absolute top-[-20%] right-[-10%] w-[700px] h-[700px] bg-gradient-to-bl from-purple-800 to-transparent rounded-full opacity-60 translate-x-1/4 -translate-y-1/4 pointer-events-none"></div>
@@ -270,7 +272,8 @@ export default function Oprec() {
 
           </div>
         </section>
-
+        </>
+        )}
           {/* PENDAFTARAN */}
           <section className="py-24 bg-[#fafafa]">
             <div className="max-w-4xl mx-auto px-6">
