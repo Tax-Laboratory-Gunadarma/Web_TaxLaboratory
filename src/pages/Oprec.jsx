@@ -568,7 +568,6 @@ export default function Oprec() {
                  </div>
                  <div>
                    <p className="text-sm font-black text-orange-500 uppercase tracking-widest">Berkas Registrasi</p>
-                   <p className="text-slate-400 text-xs font-bold mt-0.5">6 wajib + 1 opsional</p>
                  </div>
                </div>
                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
