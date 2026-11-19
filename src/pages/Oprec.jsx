@@ -653,10 +653,6 @@ export default function Oprec() {
                  </a>
                </div>
              </div>
-             <div className="max-w-lg mx-auto bg-slate-50 border border-slate-200 rounded-xl p-4 flex items-center gap-3 text-left">
-               <svg className="w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-               <p className="text-slate-500 text-sm leading-relaxed font-medium">Pastikan Anda mengakses formulir menggunakan email <span className="font-bold text-slate-700">@student.gunadarma.ac.id</span></p>
-             </div>
            </div>
          </div>
        </section>
